@@ -18,7 +18,7 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -98,8 +98,14 @@ p {
 }
 .slogan {
   background-color: #2f303a;
+  width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .slogan-1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   margin-bottom: 30px;
   margin-top: 0;
 
@@ -233,8 +239,6 @@ p {
 }
 .stuff-list {
   display: flex;
-}
-.stuff-img {
   margin-top: 50px;
 }
 .stuff-list .stuff-img:not(:last-child) {
@@ -254,12 +258,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+.portfolio-images {
+  margin-top: 50px;
+}
 .portfolio-images .images {
   flex-basis: calc((100% -60px) / 3);
 }
 .images {
   max-width: 370px;
-  margin-top: 30px;
+  margin-top: 0;
 }
 .box {
   padding: 20px 24px;
